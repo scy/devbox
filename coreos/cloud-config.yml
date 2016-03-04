@@ -1,0 +1,13 @@
+#cloud-config
+
+hostname: devbox
+
+coreos:
+
+    update:
+        reboot-strategy: off
+
+users:
+
+    - name: core
+      passwd: "$6$rounds=4567$zAfZwjYIn8a5lTY$rmMelFlzSfEQq4ZJ9UDVMAZXiWGe3hXgXTyKPBGNutMWE2.e27eRv/REpIdh5FdKCuDbQlDKY3fLriKxJdHC.0"
