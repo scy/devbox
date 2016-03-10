@@ -10,4 +10,5 @@ coreos:
 users:
 
     - name: core
+      # You don't have to crack this, it's used nowhere else.
       passwd: "$6$rounds=4567$zAfZwjYIn8a5lTY$rmMelFlzSfEQq4ZJ9UDVMAZXiWGe3hXgXTyKPBGNutMWE2.e27eRv/REpIdh5FdKCuDbQlDKY3fLriKxJdHC.0"
